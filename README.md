@@ -291,5 +291,5 @@ Lakukan restart nginx
 Jalankan perintah `lynx arjuna.E20.com` pada client dan akan muncul secara acak seperti berikut
 ![image](https://github.com/gustino7/Jarkom-Modul-2-E20-2023/assets/93267604/0924a3ad-a11d-496f-8acf-e4c8dbced083)
 ![image](https://github.com/gustino7/Jarkom-Modul-2-E20-2023/assets/93267604/9a3f8204-bacc-45d2-951e-79c8ae867f60)
-![image](https://github.com/gustino7/Jarkom-Modul-2-E20-2023/assets/93267604/e674cc16-507b-401a-a7fc-61b9e75789d2)
+![image](https://github.com/gustino7/Jarkom-Modul-2-E20-2023/assets/93267604/e857921b-fb0d-41c5-ad20-b9f090709fd6)
 
