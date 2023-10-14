@@ -272,7 +272,7 @@ Membuat file `jarkom` pada directory `/etc/nginx/sites-available` dengan konfigu
 lalu membuat symlink `ln -s /etc/nginx/sites-available/jarkom /etc/nginx/sites-enabled`, menghapus file `/etc/nginx/sites-enabled/default`, dan menjalankan `service php7.0-fpm start`
 Lakukan restart nginx
 ```service nginx restart```
-Untuk node **Abimanyu & Prabukusuma** melakukan hal yang sama namun berbeda pada isi dari file `/var/www/jarkom/index.php` diberikan perbedaan untuk memastikan pengacakan pada saat akses server karena algoritma Round Robin pada load balancer
+Untuk node **Abimanyu & Prabukusuma** melakukan hal yang sama namun berbeda pada isi dari file `/var/www/jarkom/index.php` diberikan perbedaan untuk memastikan pengacakan pada saat akses server karena algoritma Round Robin pada load balancer. Juga konfigurasi pada file `/etc/nginx/sites-available/jarkom` berbeda pada listen server nya sesuai dengan port di nomor 10
 
 ## Soal 10
 Kemudian gunakan algoritma Round Robin untuk Load Balancer pada Arjuna. Gunakan server_name pada soal nomor 1. Untuk melakukan pengecekan akses alamat web tersebut kemudian pastikan worker yang digunakan untuk menangani permintaan akan berganti ganti secara acak. Untuk webserver di masing-masing worker wajib berjalan di port 8001-8003. Contoh
@@ -291,5 +291,5 @@ Lakukan restart nginx
 Jalankan perintah `lynx arjuna.E20.com` pada client dan akan muncul secara acak seperti berikut
 ![image](https://github.com/gustino7/Jarkom-Modul-2-E20-2023/assets/93267604/0924a3ad-a11d-496f-8acf-e4c8dbced083)
 ![image](https://github.com/gustino7/Jarkom-Modul-2-E20-2023/assets/93267604/9a3f8204-bacc-45d2-951e-79c8ae867f60)
-![image](https://github.com/gustino7/Jarkom-Modul-2-E20-2023/assets/93267604/746ae998-75cf-47c7-b458-45bccd7cf4b8)
+![image](https://github.com/gustino7/Jarkom-Modul-2-E20-2023/assets/93267604/e674cc16-507b-401a-a7fc-61b9e75789d2)
 
